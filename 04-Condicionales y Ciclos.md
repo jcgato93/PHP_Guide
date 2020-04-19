@@ -65,3 +65,15 @@ $jobs = [
     ?>
 </ul>
 ```
+
+## Ciclo foreach
+
+```php
+foreach ($array as $valor) {
+    // sentencias que pueden usar $valor
+}
+
+foreach ($array as $llave => $valor) {
+   // sentencias que pueden usar $llave y $valor
+}
+```
